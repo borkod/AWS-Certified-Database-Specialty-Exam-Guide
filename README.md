@@ -26,9 +26,9 @@ AWS suggests that the examinee has:
     - There are engine specific questions, so you should have some familiarity with each engine (e.g. Oracle TDE, PostgreSQL specific capabilities)
   - Backups
   - Option Groups
-  - DB Parameter Goups
+  - DB Parameter Groups
   - SQL Performance Insights (what is it, when is it applicable, and how is it different from CloudWatch)
-- Alongside RDS, **DynamoDB** is probably the most crucial of AWS databse services.  You should know it inside and out.
+- Alongside RDS, **DynamoDB** is probably the most crucial of AWS database services.  You should know it inside and out.
   - Understand Primary Keys/Partition Keys/Sort Keys.  Be able to design/choose them in a particular scenario and use them.
   - Global Secondary Indexes / Local Secondary Indexes.  Understand difference between them and applicable use cases.
   - DynamoDB Streams
@@ -54,26 +54,57 @@ AWS suggests that the examinee has:
   - Focus on Redis
   - Understand Redis architecture, Multi-AZ, etc.
   - Understand various caching strategies (Lazy Loading, Write-Through) and benefits/limitation of each
-- **DatabaseDB**
+- **DocumentDB**
   - I don't recall many questions on this service, however you should have general familiarity with it
+- **Redshift**
+  - Have a general understanding of data-warehouse topics and columnar storage
+  - Be familiar with technical architecture (single node deployment / cluster with leader and compute nodes)
+  - Be familiar with Redshift Spectrum
+  - Understand use cases for Redshift (e.g. Business Intelligence and Reporting).  Be able to differentiate applicability of Redshift vs RDS.
 - **Neptune**
   - I don't recall many questions here.  However, you should have general understanding of graph database concepts and graph database applications.
+  - I suggest being familiar with its technical architecture
+  - Know supported APIs (Gremlin, SPARQL) and models (Property Graph/TinkerPop and W3C RDF/SPARQL)
 - **Security**
   - Understand options and solutions for data encryption (both data at rest and data in transit)
   - Authentication options and capabilities
   - Access Management (IAM)
   - Have good understanding of services like Parameter Store and KMS
 - **Networking**
-  - Understand how to integrate various services with VPC (e.g VPC Endpoints)
+  - Understand how to integrate various services with VPC (e.g. VPC Endpoints)
   - Know how to secure access at network level
 - **Solutions Architecture**
   - There were a number of questions very reminiscent of questions from AWS Solutions Architect Exam.  I *strongly* suggest attaining AWS Solutions Architect Associate Certification before attempting this specialty exam.
   - Understand AWS Lambda and how it can be used in conjunction with all the other services mentioned above
 - **Deployment and CI/CD**
-  - There were quiet a few (more than I expected) questions relating to deployment and CI/CD concepts.  I would *strongly* suggest attaining the AWS DevOps Engineer Professional certification prior to writing this specialty exam (or at least AWS Developer Associate Certification).  You need to understand the various DevOps services AWS offers (e.g. CloudFormation, CodeBuild, CodeDeploy) and how they can be utilized to assist deployment scenarios.
+  - There were quite a few (more than I expected) questions relating to deployment and CI/CD concepts.  I would *strongly* suggest attaining the AWS DevOps Engineer Professional certification prior to writing this specialty exam (or at least AWS Developer Associate Certification).  You need to understand the various DevOps services AWS offers (e.g. CloudFormation, CodeBuild, CodeDeploy) and how they can be utilized to assist deployment scenarios.
 
 ## General Tips
 As mentioned above, I strongly suggest having both AWS Solutions Architect - Associate and AWS Certified Developer - Associate certifications (or preferably AWS DevOps Engineer - Professional) prior to entering to write this specialty exam. The experience and knowledge required to attain those certifications will go a long way in helping you do well in this exam.
 
+As suggested by AWS, you should have significant experience designing and implementing solutions consisting of various database technologies.  This experience should include considerable understanding and practical use of AWS services.
+
+Lastly, I suggest reviewing official AWS documentation, whitepapers, blogs, and videos.  In particular, I found advanced level Re:Invent and Tech Talk videos particularly useful.
+
 ## Resources
-Include links here.
+Below is a list of few links I found especially informative.
+
+- Check out the excellent [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/).  There are numerous papers/guides on database services and best practices.
+- [Amazon Relational Database Service (Amazon RDS)](https://www.youtube.com/watch?v=igRfulrrYCo)
+- [AWS re:Invent 2017: Deep Dive on Amazon Relational Database Service (RDS) (DAT302)](https://www.youtube.com/watch?v=TJxC-B9Q9tQ)
+- [AWS re:Invent 2018: Aurora Serverless: Scalable, Cost-Effective Application Deployment (DAT336)](https://www.youtube.com/watch?v=4DqNk7ZTYjA)
+- [Migrating Microsoft SQL to AWS - AWS Online Tech Talks](https://www.youtube.com/watch?v=WeXXtBNtwxk) - Contains a good demo of DMS
+- [AWS re:Invent 2017: ElastiCache Deep Dive: Best Practices and Usage Patterns (DAT305)](https://www.youtube.com/watch?v=_YYBdsuUq2M)
+- [AWS re:Invent 2018: ElastiCache Deep Dive: Design Patterns for In-Memory Data Stores (DAT302-R1)](https://www.youtube.com/watch?v=QxcB53mL_oA)
+- [AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database (DAT321)](https://www.youtube.com/watch?v=yvBR71D0nAQ)
+- [AWS re:Invent 2018: Accelerate Database Development and Testing with Amazon Aurora (DAT313)](https://www.youtube.com/watch?v=tJ0TWdIocz0)
+- [Data Design and Modeling for Microservices](https://www.youtube.com/watch?v=KPtLbSEFe6c)
+- [AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift & Redshift Spectrum (ABD304)](https://www.youtube.com/watch?time_continue=1&v=Q_K3qH5OYaM)
+- [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k)
+
+## Final Thoughts
+In my opinion, AWS Database Specialty is an excellent addition to the AWS Certification program.  Database technologies are an integral and crucial part of any cloud based solution. Having a strong competency in these technologies is critical to being a successful architect and designing apt solutions.
+
+I hope this guide and content is helpful to those preparing to write the exam in the future.
+
+Good Luck!
