@@ -1,5 +1,5 @@
 # AWS Certified Database - Specialty Exam Preparation Guide and Study Tips
-In late November of 2019, AWS [announced](https://aws.amazon.com/blogs/database/new-aws-certification-purpose-built-to-validate-database-expertise/) a new specialty certification focusing specifically on database technologies.  The AWS Certified Database - Specialty Exam beta period started in early December of 2019 with the standard certification exam target date being April of 2020.  At the start of December, I participated in the beta writing one of the beta exams.  As of this writing, I do not know my results and whether on not I achieved the certification.  Nevertheless, I thought it would be useful to share my experience.  I'll try to list the topics covered by the exam questions, and provide insight and useful resources that are helpful in preparing for the exam.
+In late November of 2019, AWS [announced](https://aws.amazon.com/blogs/database/new-aws-certification-purpose-built-to-validate-database-expertise/) a new specialty certification focusing specifically on database technologies.  The AWS Certified Database - Specialty Exam beta period started in early December of 2019 with the standard certification exam availability target date being April of 2020.  At the start of December, I participated in the beta attempting the beta exams.  As of this writing, I do not know my results and whether on not I achieved the certification.  Nevertheless, I thought it would be useful to share my experience.  I'll try to list the topics covered by the exam questions, and provide some insight and resources that are helpful in preparing for the exam.
 
 ## Exam Description
 The database certification exam covers five domains:
@@ -11,7 +11,7 @@ The database certification exam covers five domains:
   
 The exam's goal is to test user's competence to:
 - Understand the various AWS database services
-- Recommend and design database solutions appropriate to satisfy specific requirements
+- Recommend and design database solutions appropriate to satisfy specific problem requirements
 
 AWS suggests that the examinee has:
 - Minimum of 5 years of experience working with relational and NoSQL databases, including on-prem and cloud based implementations
@@ -29,20 +29,23 @@ AWS suggests that the examinee has:
   - DB Parameter Groups
   - SQL Performance Insights (what is it, when is it applicable, and how is it different from CloudWatch)
 - Alongside RDS, **DynamoDB** is probably the most crucial of AWS database services.  You should know it inside and out.
-  - Understand Primary Keys/Partition Keys/Sort Keys.  Be able to design/choose them in a particular scenario and use them.
+  - Understand Primary Keys/Partition Keys/Sort Keys.  Given a particular scenario, be able to design/choose them.
   - Global Secondary Indexes / Local Secondary Indexes.  Understand difference between them and applicable use cases.
   - DynamoDB Streams
   - Global Tables (and its use cases)
   - Data Modeling
     - Partition Sharding (e.g. adding random suffix)
     - Composite Keys
-  - Best Practices
+  - Design patterns and best practices
   - Querying and Filtering
-  - DAX
+  - DAX (vs ElastiCache)
   - Have a good understanding of the underlying technical architecture
 - **Amazon Aurora**
   - Understand the technical architecture and use cases
   - Difference between Aurora Read Replicas/RDS Read Replicas
+  - Scaling of Aurora
+  - Understand Aurora Serverless
+  - Understand Aurora Clones and when to you should use them
 - **CloudWatch**
   - Understand the service functionality 
   - How to use in troubleshooting scenarios
@@ -76,6 +79,7 @@ AWS suggests that the examinee has:
 - **Solutions Architecture**
   - There were a number of questions very reminiscent of questions from AWS Solutions Architect Exam.  I *strongly* suggest attaining AWS Solutions Architect Associate Certification before attempting this specialty exam.
   - Understand AWS Lambda and how it can be used in conjunction with all the other services mentioned above
+  - Expect questions on High Availability, Disaster Recovery, and Fault Tolerance
 - **Deployment and CI/CD**
   - There were quite a few (more than I expected) questions relating to deployment and CI/CD concepts.  I would *strongly* suggest attaining the AWS DevOps Engineer Professional certification prior to writing this specialty exam (or at least AWS Developer Associate Certification).  You need to understand the various DevOps services AWS offers (e.g. CloudFormation, CodeBuild, CodeDeploy) and how they can be utilized to assist deployment scenarios.
 
@@ -105,6 +109,6 @@ Below is a list of few links I found especially informative.
 ## Final Thoughts
 In my opinion, AWS Database Specialty is an excellent addition to the AWS Certification program.  Database technologies are an integral and crucial part of any cloud based solution. Having a strong competency in these technologies is critical to being a successful architect and designing apt solutions.
 
-I hope this guide and content is helpful to those preparing to write the exam in the future.
+I hope this guide and contents within are helpful to those preparing to attempt the exam in the future.
 
 Good Luck!
