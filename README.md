@@ -88,16 +88,18 @@ As mentioned above, I strongly suggest having both AWS Solutions Architect - Ass
 
 As suggested by AWS, you should have significant experience designing and implementing solutions consisting of various database technologies.  This experience should include considerable understanding and practical use of AWS services.
 
-Lastly, I suggest reviewing official AWS documentation, whitepapers, blogs, and videos.  In particular, I found advanced level Re:Invent and Tech Talk videos particularly useful.
+Lastly, I suggest reviewing official [AWS documentation](https://docs.aws.amazon.com/), [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/), blogs, and videos.  In particular, I found advanced level Re:Invent and Online Tech Talk videos particularly useful.
 
 ## Resources
 Below is a list of few links I found especially informative.
 
-- Check out the excellent [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/).  There are numerous papers/guides on database services and best practices.
+### AWS Re:Invent Videos and Online Tech Talks: 
+
 - [Amazon Relational Database Service (Amazon RDS)](https://www.youtube.com/watch?v=igRfulrrYCo)
 - [AWS re:Invent 2017: Deep Dive on Amazon Relational Database Service (RDS) (DAT302)](https://www.youtube.com/watch?v=TJxC-B9Q9tQ)
 - [AWS re:Invent 2018: Aurora Serverless: Scalable, Cost-Effective Application Deployment (DAT336)](https://www.youtube.com/watch?v=4DqNk7ZTYjA)
-- [Migrating Microsoft SQL to AWS - AWS Online Tech Talks](https://www.youtube.com/watch?v=WeXXtBNtwxk) - Contains a good demo of DMS
+- [Migrating Microsoft SQL to AWS - AWS Online Tech Talks](https://www.youtube.com/watch?v=WeXXtBNtwxk)
+  - Contains a good demo of DMS
 - [AWS re:Invent 2017: ElastiCache Deep Dive: Best Practices and Usage Patterns (DAT305)](https://www.youtube.com/watch?v=_YYBdsuUq2M)
 - [AWS re:Invent 2018: ElastiCache Deep Dive: Design Patterns for In-Memory Data Stores (DAT302-R1)](https://www.youtube.com/watch?v=QxcB53mL_oA)
 - [AWS re:Invent 2018: Amazon DynamoDB Under the Hood: How We Built a Hyper-Scale Database (DAT321)](https://www.youtube.com/watch?v=yvBR71D0nAQ)
@@ -105,6 +107,21 @@ Below is a list of few links I found especially informative.
 - [Data Design and Modeling for Microservices](https://www.youtube.com/watch?v=KPtLbSEFe6c)
 - [AWS re:Invent 2017: Best Practices for Data Warehousing with Amazon Redshift & Redshift Spectrum (ABD304)](https://www.youtube.com/watch?time_continue=1&v=Q_K3qH5OYaM)
 - [AWS re:Invent 2018: Amazon DynamoDB Deep Dive: Advanced Design Patterns for DynamoDB (DAT401)](https://www.youtube.com/watch?v=HaEPXoXVf2k)
+
+### AWS Whitepapers & Guides
+
+- [An Overview of AWS Cloud Data Migration Services](https://d1.awsstatic.com/whitepapers/Storage/An_Overview_of_AWS_Cloud_Data_Migration_Services.pdf?did=wp_card&trk=wp_card)
+- [Migrating Applications Running Relational Databases to AWS: Best Practices Guide](https://d1.awsstatic.com/whitepapers/Migration/migrating-applications-to-aws.pdf?did=wp_card&trk=wp_card)
+- [AWS Database Migration Service Best Practices](https://d1.awsstatic.com/whitepapers/RDS/AWS_Database_Migration_Service_Best_Practices.pdf?did=wp_card&trk=wp_card)
+- [Migrating Your Databases to Amazon Aurora](https://d1.awsstatic.com/whitepapers/RDS/Migrating%20your%20databases%20to%20Amazon%20Aurora.pdf?did=wp_card&trk=wp_card)
+- [Best Practices for Migrating MySQL Databases to Amazon Aurora](https://d1.awsstatic.com/whitepapers/RDS/Best-Practices-for-Migrating-MySQL-Databases-to-Amazon-Aurora.pdf?did=wp_card&trk=wp_card)
+- [Strategies for Migrating Oracle Databases to AWS](https://d1.awsstatic.com/whitepapers/strategies-for-migrating-oracle-database-to-aws.pdf?did=wp_card&trk=wp_card)
+- [Best Practices for Running Oracle Database on AWS](https://d1.awsstatic.com/whitepapers/best-practices-for-running-oracle-database-on-aws.pdf?did=wp_card&trk=wp_card)
+- [Deploying Microsoft SQL Server on AWS](https://d1.awsstatic.com/whitepapers/RDS/Deploying_SQLServer_on_AWS.pdf?did=wp_card&trk=wp_card)
+- [Best Practices for Deploying Microsoft SQL Server on AWS](https://d1.awsstatic.com/whitepapers/best-practices-for-deploying-microsoft-sql-server-on-aws.pdf?did=wp_card&trk=wp_card)
+- [Performance at Scale with Amazon ElastiCache](https://d1.awsstatic.com/whitepapers/performance-at-scale-with-amazon-elasticache.pdf?did=wp_card&trk=wp_card)
+- [Database Caching Strategies Using Redis](https://d1.awsstatic.com/whitepapers/Database/database-caching-strategies-using-redis.pdf?did=wp_card&trk=wp_card)
+- [Getting Started with Amazon DocumentDB (with MongoDB Compatibility)](https://d1.awsstatic.com/whitepapers/getting-started-with-amazon-documentdb.pdf?did=wp_card&trk=wp_card)
 
 ## Final Thoughts
 In my opinion, AWS Database Specialty is an excellent addition to the AWS Certification program.  Database technologies are an integral and crucial part of any cloud based solution. Having a strong competency in these technologies is critical to being a successful architect and designing apt solutions.
