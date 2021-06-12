@@ -120,7 +120,7 @@ Below is a list of few links I found especially informative.
 - [Deploying Microsoft SQL Server on AWS](https://d1.awsstatic.com/whitepapers/RDS/Deploying_SQLServer_on_AWS.pdf?did=wp_card&trk=wp_card)
 - [Best Practices for Deploying Microsoft SQL Server on AWS](https://d1.awsstatic.com/whitepapers/best-practices-for-deploying-microsoft-sql-server-on-aws.pdf?did=wp_card&trk=wp_card)
 - [Performance at Scale with Amazon ElastiCache](https://d1.awsstatic.com/whitepapers/performance-at-scale-with-amazon-elasticache.pdf?did=wp_card&trk=wp_card)
-- [Database Caching Strategies Using Redis](https://d1.awsstatic.com/whitepapers/Database/database-caching-strategies-using-redis.pdf?did=wp_card&trk=wp_card)
+- [Database Caching Strategies Using Redis](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/database-caching-strategies-using-redis.pdf#welcome)
 - [Getting Started with Amazon DocumentDB (with MongoDB Compatibility)](https://d1.awsstatic.com/whitepapers/getting-started-with-amazon-documentdb.pdf?did=wp_card&trk=wp_card)
 
 ## Final Thoughts
